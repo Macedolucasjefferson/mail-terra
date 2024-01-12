@@ -1,0 +1,693 @@
+h1 {
+	margin-bottom:18px;
+}
+
+h2 {
+	font-size:16px;
+}
+
+h3 {
+	font-size:13px;
+}
+
+h4, h6 {
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	margin-top:15px;
+	display:inline-block;
+}
+
+h5 {
+	color:#FF0000;
+	text-transform:uppercase;
+	font-size:13px;
+}
+
+h6 {
+	margin-bottom:15px;
+}
+
+a {
+	color:#ff9900
+}
+
+li {
+	list-style-type:none;
+}
+
+.clear {
+	clear:both;
+}
+/*--- Cancelamento on line ----*/
+
+.cancelaOnline {
+	margin-bottom:20px;
+	display:inline-block;
+}
+.inputBorder {
+	border:solid 1px #c6c6c6;
+}
+	.margintop {
+		margin-top:18px;
+		*padding-top:18px;
+	}
+	
+	.cancelaOnlineInt {
+		margin-top:18px;
+	}
+	
+	.important {
+		background-color:#dcefff;
+		padding:10px;
+	}
+
+	.labelCancelamento {
+		width:380px !important;
+	}
+	
+	.imgCaptcha {
+		margin-top:10px;
+	}
+	
+	.btnCancelamento {
+		margin-left:289px;
+	}
+	
+	.btn_cancelaOnline {
+		margin-left:446px;
+	}
+	
+	.titlePacotes {
+		text-transform:uppercase;
+		color:#ff9603;
+		margin-top:15px;
+	}
+	
+	.dadosCliente {
+		width:80px;
+		text-align:right;
+		margin-right:10px;
+		float:left;
+	}
+	
+	.verification {
+		width:150px;	
+	}
+
+	.cancelaOnline dl {
+		background-color:#f4f1f0;
+		background-image:url(../images1/bgDL.gif);
+		background-repeat:repeat-y;
+		border:solid 2px #f4f1f0;
+		display:inline-block;
+		width:942px;
+	}
+	
+	.cancelaOnline dt {
+		background-color:#FFFFFF;
+		width:82px;
+		float:left;
+		display:inline;
+	}
+		
+		.cancelaOnline dt img {
+			margin-top:20px;
+			margin-left:17px;
+			margin-bottom:20px;
+		}
+		
+	.cancelaOnline dd {
+		margin-top:16px;
+		margin-left:20px;
+		float:left;
+		padding-bottom:20px;		
+	}
+	
+		.cancelaOnline li {
+			list-style-type:none;
+		}
+		
+		.cancelaOnline h3 {
+			text-transform:uppercase;
+			font-weight:bold;
+		}
+		
+		.cancela_mantido {
+			color:#249a45;
+		}
+		
+		.cancela_excluido {
+			color:#992323;
+		}
+
+.txtQuestion {
+	margin-bottom:17px;
+}
+
+.outroPlano {
+	margin-bottom:40px;
+	color:#47423a;
+	/*IE7*/
+	*margin-bottom:0px;
+}
+
+	.outroPlano dl {
+		border:solid 3px #ececec;	
+		background-color:#f4faff;
+		display:inline-block;
+		width:942px;
+	}
+	
+		.outroPlano dt {
+			height:107px;
+			float:left;
+		}
+		
+		.outroPlano dt img {
+			margin-top:13px;
+			margin-left:8px;
+			margin-right:18px;
+		}
+		
+		.outroPlano dd {
+			margin-top:13px;
+		}
+		
+			.outroPlano h2 {
+				text-transform:uppercase;
+			}
+			
+			.txtPreco {
+				font-size:16px;
+				color:#ff9e0c;
+				font-weight:bold;
+				margin-bottom:5px;
+				margin-top:3px;
+				display:block;
+			}		
+			
+			.outroPlano li {
+				list-style-type:none;
+			}
+			
+.txtObs {
+	width:805px;
+	float:left;
+	/*IE7*/
+	*margin-top:40px;
+}
+
+.btns {
+	float:right;
+	padding-top:8px;
+	text-align:right;
+	width:136px;
+	/*IE 7*/
+	*margin-top:40px;
+}
+	.titulosContrato {
+		width:828px;
+		border:solid 2px #beb7af;	
+	}
+	
+	.titulosContrato th {
+		background-color:#beb7af;	
+		border:solid 1px #beb7af;	
+		color:#FFFFFF;
+		padding:5px;		
+		text-align:center;
+	}
+	
+	.titulosContrato td {
+		border-top:solid 1px #beb7af;	
+		padding:5px;
+	}
+	
+	
+	
+/*--------- Esqueci minha senha -------*/
+
+.esqueciSenha {
+	color:#47423a;
+	display:inline-block;
+	margin-top:18px;
+}
+
+	.part1 {
+		float:left;
+		width:896px;
+	}
+	
+	.part2 {
+		float:left;
+	}
+	
+	.esqueciSenha p {
+		margin-bottom:10px;
+	}
+	
+	p.pCombo {
+		margin-bottom:24px;
+	}
+	
+	.icoEsqueciSenha {
+		margin-right:10px;
+	}
+	
+	.esqueciSenha label, .captcha {
+		width:135px;
+		display:block;
+		float:left;
+		text-align:right;
+		margin-right:5px;
+		padding-top:3px;
+	}
+	
+	.captcha {
+		padding-top:0px;		
+	}
+	
+	.inputTxt {
+		font-size:12px;
+		padding:3px;
+		border:solid 1px #c6c6c6;
+		margin-bottom:5px;
+        width:300px;
+    }
+    
+    	.inputMedio {
+	    font-size:12px;
+		padding:3px;
+		width:100px;
+		border:solid 1px #c6c6c6;
+		margin-bottom:5px;
+	 }
+    	.inputPequeno {
+	    font-size:12px;
+		padding:3px;
+		width:40px;
+		border:solid 1px #c6c6c6;
+		margin-bottom:5px;
+	 }
+	
+	.username {
+		line-height:22px;
+	}
+	
+	.errortxt {
+		color:#FF0000;
+	}
+	
+	.esqueciSenhaInt {
+		margin-left:100px;
+		margin-top:25px;
+		width:350px;
+		float:left;
+	}
+	
+	.btnAssine {
+		float:left;
+		padding-left:81px;
+		margin-top:24px;
+	}
+	
+		.esqueciSenhaInt label {
+			width:200px;
+		}
+
+		.btn_esqueciSenha {
+			margin-left:226px;
+		}
+		
+		.linkCaptcha a {
+			font-size:11px;
+			color:#57b583;
+			text-decoration:none;
+		}
+		
+		.pleft_esquecisenha {
+			float:left;
+			width:370px;
+		}
+		
+		.left {
+			float:left;
+		}
+		
+		.inputContrato {
+			width:100px;
+			float:left;
+		}
+		
+		.inputNascimento {
+			width:230px;
+			float:left;
+			/*IE7*/
+			*width:178px;
+		}
+		
+		.btnContrato {
+			margin-top:40px;
+			margin-left:-93px;
+			float:left;
+			/*IE7*/
+			*margin-left:-86px;			
+		}
+		
+		.btnNascimento {
+			margin-top:40px;
+			margin-left:-146px;
+			float:left;
+			/*IE7*/
+			*margin-left:-86px;			
+		}
+
+/* ---- Meus dados -----*/
+
+.imgBar {
+	margin-bottom:28px;
+}
+
+.activeBar {
+	font-size:16px;
+	color:#FFFFFF;
+	width:942px;
+	height:40px;
+}
+
+	.titleActiveBar {
+		width:816px;
+		background-color:#FF9E0F;
+		display:inline-block;
+		float:left;
+		padding-top:12px;
+		padding-bottom:9px;
+		font-weight:bold;
+	}
+	
+	.ico {
+		float:left;
+		height:40px;		
+	}
+	
+	.boxActiveBar {
+		width:900px;
+		margin-left:1px;
+		padding-left:1px;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	
+	.btnNav {
+		margin-left:145px;
+	}
+	
+.divAdvise {
+	background-image:url(../../images1/bar_Erro.jpg);
+	background-repeat:no-repeat;
+	width:962px;
+	height:42px;
+	margin-left:-10px;
+	margin-bottom:20px;
+}
+.divError {
+	background-image:url(../../images1/back_Erro.gif);
+	background-repeat:no-repeat;
+	width:962px;
+	height:42px;
+	margin-left:-10px;
+	margin-bottom:20px;
+}
+
+	.divErrorInt {
+		margin-left:52px;
+		margin-top:14px;
+		display:inline-block;
+	}
+	.divAdviseInt {
+		margin-left:52px;
+		margin-top:14px;
+		display:inline-block;
+	}
+	
+	.divSucess {
+	background-image:url(../../images1/back_sucess.gif);
+	background-repeat:no-repeat;
+	width:962px;
+	height:42px;
+	margin-left:-10px;
+	margin-bottom:20px;
+}
+
+	.divSucessInt {
+		margin-left:52px;
+		margin-top:14px;
+		display:inline-block;
+	}
+
+/* ------ FORMULARIO DADOS DO TITULAR ---------*/
+
+h4.titleInt {
+	color:#f99c01;
+}
+
+.tableForm {
+	margin-top:12px;
+}
+
+	.tableForm td {
+		padding-bottom:8px;
+		text-align:left;
+	}
+
+	.tableForm td label {
+		text-align:right;
+		width:132px;
+		display:inline-block;
+		margin-right:20px;
+	}
+	
+	input.inputBig, input.inputMiddle, .inputNormal, .inputSmall {
+		width:370px;
+		padding:2px;
+		padding-left:5px;
+	}
+	
+	input.inputMiddle {
+		width:130px;
+	}
+	
+	.inputError {
+		background-color:#ffeaa7;
+		border:solid 1px #e5ce80;
+	}
+	
+	.inputNormal {
+		width:270px;
+	}
+	
+	.inputSmall {
+		width:52px;
+		margin-right:5px;
+	}
+	
+	.selectNormal {
+		width:281px;
+	}
+	
+	td.dados {
+		color:#676767;
+	}
+	
+	.required {
+		color:#ff720e;
+	}
+	
+	.searchCEP {
+		color:#747474;
+		font-size:10px;
+		font-weight:bold;
+	}
+	
+		.searchCEP a {
+			color:#ff7c27;
+			text-decoration:underline;
+		}
+	
+	.divCheck {
+		width:570px;
+		margin-top:12px;
+	}
+	
+		.divCheckInt {
+			width:28px;
+			height:40px;
+			float:left;
+		}
+		
+		.checkBox {
+			margin-top:5px;
+		}
+	
+	.requiredFiels {
+		color:#ff9502;
+		display:inline-block;
+	}
+	
+/* CENTRAL DE PAGAMENTOS */
+
+.marginP {
+	margin-left:25px;
+	margin-top:20px;
+	display:inline-block;
+	width:100%;
+}
+
+.backTable {
+	background-color:#f5f1f0;
+	width:846px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+	.titulosAbertos {
+		width:818px;
+		border:solid 2px #beb7af;	
+		background-color:#FFFFFF;		
+	}
+	
+	.titulosAbertos th {
+		background-color:#beb7af;	
+		border:solid 1px #beb7af;	
+		color:#FFFFFF;
+		padding:5px;		
+	}
+	
+	.titulosAbertos td {
+		border-top:solid 1px #beb7af;	
+		padding:5px;
+	}
+	
+	.btnFinal {
+
+
+		text-align:right;
+		margin-right:20px;
+		margin-top:20px;
+	}
+	
+	.title {
+		font-size:13px;
+		text-transform:uppercase;
+		color:#ff9e0c;
+		font-weight:bold;	
+	}
+	
+	.inputPagamento {
+		margin-top:3px;
+		margin-right:10px;
+	}	
+	
+	.logosCartoes {
+		float:left;
+		width:80px;
+		text-align:center;
+		display:inline-block;
+	}
+	
+	.logosCartoes img {
+		padding:3px;
+		border:solid 1px #CCCCCC;
+	}
+
+	.divisor {
+		display:none;
+	}
+	
+	.inputMobile label {
+		width:150px;
+		text-align:right;
+		display:inline-block;
+		float:left;
+		margin-right:5px;
+		padding-top:5px;
+		margin-bottom:10px;
+	}
+	
+	.inputMobile input {
+		height:25px;
+		border:solid 1px #CCCCCC;
+		margin-bottom:10px;		
+	}
+	
+	.marginLogo {
+		margin-bottom:30px;
+	}
+	
+	.print {
+		margin-right:52px;
+	}
+	
+	.detalhesTitulo .right {
+		text-align:right;
+	}
+	
+	.detalhesTitulo td {
+		border:solid 0px;
+	}
+	
+	.detalhesTable {
+		width:361px;
+	}
+	
+	.space {
+		width:50px;
+		display:inline-block;
+	}
+	
+	.assina 
+	{
+		margin-top:25px;	
+	}
+	
+		.assinaCheck 
+		{
+			height:25px;
+			display:inline-block;
+			float:left;
+			margin-right:5px;
+			clear:both;
+		}
+		
+		.labelAssina
+		{
+			width:840px;
+			float:left;
+			padding-top:4px;
+			display:inline-block;
+			margin-bottom:10px;
+		}
+		
+		.btnDadosConta 
+		{
+			clear:both;	
+		}
+		.btn_Alinhamento {
+			margin-left:133px;
+			margin-top:10px;
+		}
+
+/* ----- iframe ------*/
+.iframe, .iframeRodape {
+	width:942px;
+	height:56px;
+	overflow:hidden;
+}
+
+.iframeRodape {
+	height:auto;
+	width:962px;
+}
+
